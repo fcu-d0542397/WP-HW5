@@ -163,7 +163,7 @@ map: map
 var infowindow = new google.maps.InfoWindow({
 content: feature.contentString
 });
-marker.addListener('click', function() {
+marker.addListener('mouseover', function() {
 infowindow.open(map, marker);
 });
 
